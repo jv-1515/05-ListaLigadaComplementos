@@ -168,7 +168,7 @@ void excluirElemento()
 	cin >> excluir;
 
 	if (posicaoElemento(excluir) == NULL) {
-		cout << "O elemento nao existe na lista\n";
+		cout << "O elemento nao existe na lista! Tente novamente\n";
 	}
 	else {
 		NO* atual = primeiro;
@@ -204,10 +204,10 @@ void buscarElemento()
 	cin >> busca;
 
 	if (posicaoElemento(busca) == NULL) {
-		cout << "O elemento nao existe na lista\n";
+		cout << "O elemento nao existe na lista =(\n";
 	}
 	else {
-		cout << "O elemento existe na lista\n";
+		cout << "O elemento existe na lista!\n";
 	}
 }
 
